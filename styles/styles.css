@@ -1,0 +1,61 @@
+p h1, h2, h3, h6 {
+    color: brown;
+    font-size: 40px;
+    font-family: Verdana;
+}
+
+.my-class {
+color: blueviolet;
+}
+
+/*id selector */
+#my-id {
+    color: aqua;
+}
+
+#my-id {
+    background-color: rgb(127, 214, 255);
+}
+
+P {
+    padding: 70px;
+    border: 2px solid palevioletred;
+    margin: 100px;
+    width: 150px;
+}
+
+p {
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color: yellowgreen;
+    text-decoration-style: wavy;
+    text-transform: capitalize;
+    font-style: oblique;
+    font-weight: 200;
+    font-size: larger;
+
+}
+
+ul { 
+list-style-type: lower-greek;
+list-style-position: initial;
+margin-right: 35;
+padding-left: 27;
+color: rgb(248, 9, 109);
+
+}
+ol { 
+    list-style-type: lower-greek;
+    list-style-position: initial;
+    margin-right: 35;
+    padding-left: 27;
+    color: rgb(248, 9, 109);
+    
+    }
+a {
+    color: orange;
+    text-decoration: dotted;
+    background-color: antiquewhite;
+    text-align: justify; 
+    
+}
