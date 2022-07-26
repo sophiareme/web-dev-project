@@ -256,3 +256,33 @@ for( count = 0; count < 10; count ++) {
 }
 console.log ("Loop Stopped");
 
+
+
+var fruits = ["strawberry", "pineapple", "starfruit", "mango", "peaches","plums","blueberry","banana", "apple"];
+console.log(fruits [0] + " is the first fruit");
+console.log(fruits[1] +  " is the second fruit");
+console.log(fruits[3] +  " is the third fruit");
+console.log(fruits[4] +  " is the fourth fruit");
+
+
+
+/*
+var banana;
+var apple;
+var strawberry;
+var array = [banana,apple,strawberry]
+*/
+
+var i;
+for(i=0; i < fruits.length; i++){
+  console.log(fruits[i]);
+}
+
+let text = "<ul>";
+fruits.forEach(fruitFunction);
+text += "</ul>";
+document.getElementById("fruitText").innerHTML = text;
+
+function fruitFunction(value) {
+   text += "<li>" + value + "</li>";
+}
