@@ -22,4 +22,15 @@ h2 {
 #boysenberry{
    height: 200px;
    width: 200px;
+   margin-left: auto;
+   
+   display: block;
 }
+   /*
+   margin-right: 10%;
+
+}
+/* p { all p elements r changed
+  .p { for the class to be changed 
+  #p { unique identifier
+    class = intro .p
