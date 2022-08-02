@@ -1,0 +1,19 @@
+h1 {
+    color: whitesmoke;
+    font-family: 'Press Start 2P';
+    text-align: center;
+}
+p1 {
+    color: whitesmoke;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    font-size: larger;
+    
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
