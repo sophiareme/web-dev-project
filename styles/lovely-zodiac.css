@@ -1,0 +1,48 @@
+p {
+    font-family: 'Kanit';
+    color: white;
+    text-align: center;
+    size: 50px;
+}
+h1 {
+    font-family: 'Press Start 2P';
+    color: white;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h2{
+    text-align: left;
+    color: white;
+    font-family: 'Press Start 2P';
+}
+
+h4 {
+    color: white;
+    text-align: left;
+    font-family: 'Kanit';
+
+}
+.centertwo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.the-zodiacs {
+
+}
+ul { 
+    list-style-type: lower-greek;
+    list-style-position: initial;
+    margin-right: 35;
+    padding-left: 27;
+    color: rgb(232, 224, 238);
+}
