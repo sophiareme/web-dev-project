@@ -18,15 +18,16 @@ h1 {
 }
 
 h2{
-    text-align: left;
+    text-align: center;
     color: white;
     font-family: 'Press Start 2P';
 }
 
 h4 {
     color: white;
-    text-align: left;
+    text-align: center;
     font-family: 'Kanit';
+    font-size: larger;
 
 }
 .centertwo {
@@ -39,10 +40,123 @@ h4 {
 .the-zodiacs {
 
 }
-ul { 
+ol { 
     list-style-type: lower-greek;
     list-style-position: initial;
     margin-right: 35;
     padding-left: 27;
-    color: rgb(232, 224, 238);
+    color: white;
+    font-size:x-large;
+}
+
+div.container {
+    text-align: center;
+}
+
+ol.zodiacs{
+    display: inline-block;
+    text-align: center;
+}
+
+div.containertwo{
+    text-align: center;
+}
+
+ul.traits{
+    display: inline-block;
+    text-align: center;
+}
+ul {
+    list-style-type:lower-greek;
+    list-style-position: initial;
+    margin-right: 35;
+    padding-left: 27;
+    color: white;
+    font-size:x-large;
+}
+.containerthree{
+  
+        display: block;
+      position: relative;
+      padding-left: 35px;
+      margin-bottom: 12px;
+      cursor: pointer;
+      font-size: 22px;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      color: white;
+      text-align: center;
+    
+}
+
+.containerfour{
+    display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: white;
+  text-align: center;
+}
+
+.containerfive{
+    display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: aliceblue;
+  text-align: center;
+}
+.topnav{
+    background-color: black;
+    overflow: auto;
+    width: 200%
+}
+
+.topnav a{
+    float: left;
+    width: 25%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+    text-decoration: none;
+    font-size: 25px;
+
+}
+
+
+.topnav a:hover {
+    background-color: rgb(0, 0, 0);
+    color: blueviolet;
+}
+    .topnav a.active {
+        background-color: #000000;
+        color: white;
+    
+}
+.topnav.icon{
+    display: none;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h2{
+    font-family: 'Press Start 2P';
 }

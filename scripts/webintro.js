@@ -1,19 +1,17 @@
-alert ("i am an alert box!!!");
-var txt;
-if(confirm("Press a button")) {
-txt = "You pressed OK!";
+function myFunction(){
+let text; 
+let person = prompt ("Please enter your name");
+if(person == null || person == ""){
+  text = "Have fun looking around";
+  
+}
+else {
+  text = " Hello " + person + " Have fun looking around!" ;
 
-} else {
-  txt = "You pressed Cancel";
 }
-document.getElementById("demo").innerHTML = txt
+document.getElementById("name").innerHTML=text;
 
-let text;
-let person = prompt ("Please enter your name:", "Sophia Reme");
-if(person == null || person == "") {
-  text = "User cancelled the prompt";
-} else {
-  text = " Hello " + person + "! How are you today?";
 }
-document.getElementById("demo").innerHTML = text;
-}
+
+
+

@@ -10,7 +10,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #8d7cf6;
+  background-color:#8d7cf6;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -24,10 +24,40 @@ input[type=submit]:hover {
 
   .container {
     border-radius: 5px;
-    background-color: #5c4c4c;
+    background-color: #7688BB;
     padding: 20px;
    
     width: 50%;
     justify-content: center;
     margin-left:450px;
   }
+  .topnav{
+    background-color: black;
+    overflow: auto;
+    width: 200%
+}
+
+.topnav a{
+    float: left;
+    width: 25%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+    text-decoration: none;
+    font-size: 25px;
+
+}
+
+
+.topnav a:hover {
+    background-color: rgb(0, 0, 0);
+    color: blueviolet;
+}
+    .topnav a.active {
+        background-color: #000000;
+        color: white;
+    
+}
+.topnav.icon{
+    display: none;
+}
